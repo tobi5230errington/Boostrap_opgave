@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #262c49;
 }
@@ -6,6 +10,21 @@ body {
     text-align: center;
     padding-top: 20px;
 }
+
+.container-sm img {
+    width: 150px;
+    -webkit-animation: rotation 8s infinite linear;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(-359deg);
+		}
+}
+
+
 
 h1, h2, h3 {
     color: white;
