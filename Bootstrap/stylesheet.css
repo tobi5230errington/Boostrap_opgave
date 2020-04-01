@@ -1,0 +1,35 @@
+body {
+    background-color: #262c49;
+}
+
+.container-sm {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+.elgrafo {
+    padding-top: 5%;
+}
+
+.graftekst {
+    padding-top: 80px;
+}
+
+.tekst1 {
+    padding-top: 5%;
+    color: white;
+    line-height: 2;
+}
+
+.graf22 {
+    padding-left: 40px;
+}
+
+.tabel {
+    padding-top: 60px;
+}
+
