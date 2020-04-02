@@ -4,6 +4,13 @@ html {
 
 body {
     background-color: #262c49;
+    
+}
+
+
+p{
+    text-align: justify;
+    color: white;
 }
 
 .container-sm {
@@ -13,6 +20,7 @@ body {
 
 .container-sm img {
     width: 150px;
+    margin-top: 10px;
     -webkit-animation: rotation 8s infinite linear;
 }
 @-webkit-keyframes rotation {
@@ -20,10 +28,16 @@ body {
 				-webkit-transform: rotate(0deg);
 		}
 		to {
-				-webkit-transform: rotate(-359deg);
+				-webkit-transform: rotate(359deg);
 		}
 }
 
+.kolonner{
+    
+    padding-top: 40px;
+    line-height: 2;
+    
+}
 
 
 h1, h2, h3 {
@@ -35,7 +49,7 @@ h1, h2, h3 {
 }
 
 .graftekst {
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 .tekst1 {
@@ -44,11 +58,41 @@ h1, h2, h3 {
     line-height: 2;
 }
 
-.graf22 {
+.graf1 {
+    
+    padding-right: 40px;
+    
+}
+
+.graf2 {
     padding-left: 40px;
 }
 
 .tabel {
     padding-top: 60px;
+}
+
+a {
+    padding-bottom: 10px;
+    color: azure;
+    font-size: 15px;
+}
+
+a:hover {
+    font-weight: bold;
+    color: azure;
+}
+
+.footer {
+    background-color: #383838;
+  
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .graf2{
+        padding-left: 0px;
+    }
 }
 
