@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #262c49;
+    
+}
+
+
+p{
+    text-align: justify;
+    color: white;
+}
+
+.container-sm {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-sm img {
+    width: 150px;
+    margin-top: 10px;
+    -webkit-animation: rotation 8s infinite linear;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.kolonner{
+    
+    padding-top: 40px;
+    line-height: 2;
+    
+}
+
+
+h1, h2, h3 {
+    color: white;
+}
+
+.elgrafo {
+    padding-top: 5%;
+}
+
+.graftekst {
+    padding-top: 20px;
+}
+
+.tekst1 {
+    padding-top: 5%;
+    color: white;
+    line-height: 2;
+}
+
+.graf1 {
+    
+    padding-right: 40px;
+    
+}
+
+.graf2 {
+    padding-left: 40px;
+}
+
+.tabel {
+    padding-top: 60px;
+}
+
+a {
+    padding-bottom: 10px;
+    color: azure;
+    font-size: 15px;
+}
+
+a:hover {
+    font-weight: bold;
+    color: azure;
+}
+
+.footer {
+    background-color: #383838;
+  
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .graf2{
+        padding-left: 0px;
+    }
+}
+
